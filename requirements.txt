@@ -5,7 +5,6 @@ textblob
 pandas
 numpy
 nltk
-pickle
 sklearn
 sys
 subprocess
