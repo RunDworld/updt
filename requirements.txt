@@ -1,0 +1,11 @@
+Flask
+matplotlib
+colorama
+textblob
+pandas
+numpy
+nltk
+pickle
+sklearn
+sys
+subprocess
