@@ -60,7 +60,7 @@ tfidf_train = tfidf_vectorizer.fit_transform(kickdesc)
 Total=cosine_similarity(tfidf_train,tfidf_train)
 
 def get_similar_courses(id):
-    db = pymysql.connect("localhost","root","","internship")
+    db = pymysql.connect("db4free.net","gunjanrl","gunj@nrl","id4165564_olcade")
     train = pd.read_sql_query("select * from newcourses;", db)
 
     courses=train["coursetitle"] 
